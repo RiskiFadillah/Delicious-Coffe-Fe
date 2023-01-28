@@ -1,0 +1,37 @@
+.pay-del {
+    background: url(../../../assets/images/background-payment&deliver.png) no-repeat;
+    background-size: cover;
+    height: 160vh;
+    display: flex;
+  }
+  
+  .order-summ {
+    flex: 0.5;
+    width: 35vw;
+    height: 60%;
+    padding: 5vw;
+    background-color: white;
+  }
+  
+  .address-payment {
+    flex: 0.8;
+    width: 100%;
+    margin: 6vw auto;
+    padding-left: 1vw;
+  }
+  
+  .addrress-container {
+    width: 100%;
+    padding: 2vw;
+    border-radius: 30px;
+  }
+  
+  .addrress-container i{
+    width: 40px;
+    height: 40px;
+    padding-top: 10px;
+    margin-right: 15px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  

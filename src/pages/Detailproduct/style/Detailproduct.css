@@ -1,0 +1,47 @@
+.product-img {
+    display: flex;
+    flex: 0.5;
+    flex-direction: column;
+    gap: 1.5vw;
+  }
+  .product-details {
+    display: flex;
+    flex: 0.5;
+    flex-direction: column;
+    gap: 1.5vw;
+  }
+  .chat {
+    width: 3.5vw;
+    height: 3.5vw;
+    border: 5px solid #f5c361;
+    z-index: 9;
+    left: 41vw;
+    top: 16.5vw;
+    position: absolute;
+  }
+  
+  .ocp {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #6a4029;
+    border-radius: 50px;
+    background: #f5c361;
+  }
+  .ocp a:hover{
+      color: #f5c361;
+  }
+  .text-ocp{
+      text-align: center;
+  }
+  
+  .text-ocp:hover{
+      font-weight: bold;
+  }
+  
+  hr {
+    width: 15%;
+  }
+  

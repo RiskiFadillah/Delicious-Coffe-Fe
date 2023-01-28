@@ -1,0 +1,181 @@
+#hero {
+  height: 100vh;
+  width: 100%;
+}
+.hero-1 {
+  background-image: url(../../../assets/images/nathan-dumlao.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+.img-hero {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 10vh;
+}
+.btn-get {
+  background-color: #ffba33;
+  width: 250px;
+  height: 60px;
+  border: none;
+  margin-top: 30px;
+}
+.container-rectangle {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  width: 3rem;
+  height: 8rem;
+  /* z-index: 9; */
+  border: none;
+  margin-top: -10vh;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* .container-quality {
+  display: flex;
+  align-items: center;
+  margin-top: 20vh;
+  gap: 5vw;
+} */
+
+.col-3 {
+  border: 2px solid #dddddd;
+  gap: 5vw;
+  width: 30%;
+}
+
+.col-sm-4 {
+  border: 2px solid #dddddd;
+  gap: 5vw;
+}
+
+.card-container img {
+  /* position: relative; */
+  margin-top: -70px;
+}
+
+.card-container ul {
+  padding: 30px 40px;
+  /* display: flex;
+  flex-direction: column; */
+  /* gap: 3vh; */
+}
+
+.card-container i {
+  padding-right: 10px;
+  color: #2fab73;
+}
+
+/* Card */
+.card-fav {
+  border: 2px solid #dddddd;
+  border-radius: 10px;
+}
+.card-fav:hover {
+  border: 2px solid #6a4029;
+}
+
+.name h6 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  padding-top: 2rem;
+  color: var(--secondary-color);
+}
+.name p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  color: var(--secondary2-color);
+}
+.btn-carousel-prev {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: transparent;
+
+  border: 2px solid #6a4029;
+}
+.btn-carousel-next {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #6a4029;
+  border: none;
+}
+
+.indicator {
+  width: 45px;
+  height: 15px;
+  border: none;
+  background: #6a4029;
+}
+
+.indicator-active {
+  width: 15px;
+  height: 15px;
+  border: none;
+  background: #dde0e4;
+}
+
+.button-carousel i {
+  padding: 5px;
+  color: #dde0e4;
+}
+
+.circle-human img{
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+
+.arrow {
+  display: flex;
+  gap: 15px;
+  padding-top: 3.5vw;
+  padding-right: 10vw;
+  justify-content: end;
+}
+
+.right {
+  background-color: #6a4029;
+  color: #fff;
+}
+
+.left {
+  border: 2px solid #6a4029;
+  color: #6a4029;
+  background-color: #fff;
+}
+
+.container-rectangle-footer {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  width: max(40vw, 60vw);
+  height: 35vh;
+  z-index: 9;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.food {
+  padding: 5rem 0;
+  padding-left: 8rem;
+}
+
+.circle-fav {
+  color: #4f5665;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+}
+.sub-tittle {
+  width: 60%;
+  line-height: 30px;
+  text-align: center;
+}
